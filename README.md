@@ -1,20 +1,19 @@
-# Happ VPN Client
+# Mikha VPN 3.9
 
-Современный **VPN клиент** аналог Happ.
+Современный VPN клиент на базе Xray-core (VLESS Reality, VMess, Trojan и др.)
 
-Стек: **Tauri 2** (Rust + React + TypeScript) + **Xray-core**
-
-## Особенности
-- Поддержка VLESS Reality, VMess, Trojan и др.
-- System Proxy режим
+## Возможности
+- Поддержка популярных протоколов
+- Системный прокси
 - Импорт подписок
-- Минималистичный и быстрый UI
+- Красивый тёмный интерфейс
+- Автоматическое обновление ядра Xray
 
 ## Сборка
 
 ```bash
+git clone https://github.com/mikhailpopov2512-spec/new-repo.git
+cd new-repo
 npm install
-npm run tauri build
+npm run tauri dev
 ```
-
-Приложение будет собрано автоматически через GitHub Actions при пуше в main.
