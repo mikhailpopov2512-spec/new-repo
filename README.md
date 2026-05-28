@@ -1,12 +1,13 @@
 # Mikha VPN 3.9
 
-Современный VPN клиент, аналог Happ. Поддержка Xray-core (VLESS Reality, VMess, Trojan и др.)
+Современный VPN клиент на базе Xray-core и sing-box.
 
 ## Возможности
-- Подключение через Xray
+- Поддержка VLESS Reality, VMess, Trojan, Shadowsocks
+- Системный прокси и TUN режим
 - Импорт подписок
-- Системный прокси
-- Тёмный интерфейс
+- Красивый тёмный интерфейс
+- Автообновление ядра
 
 ## Сборка
-Используйте GitHub Actions.
+Используй GitHub Actions.
